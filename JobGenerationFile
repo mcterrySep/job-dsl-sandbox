@@ -1,0 +1,5 @@
+job('example-hello-world-from-job-dsl') {
+  steps {
+    batchFile("echo 'Hello World'")
+  }
+}
